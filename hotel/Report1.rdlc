@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Data Pemesanan Kamar Hotel</Value>
+                <Style>
+                  <FontSize>30pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>0.305in</Top>
+        <Left>1.655in</Left>
+        <Height>0.45833in</Height>
+        <Width>6.35in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Image Name="Image1">
+        <Source>Embedded</Source>
+        <Value>ID2</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.305in</Top>
+        <Left>0.71333in</Left>
+        <Height>0.5in</Height>
+        <Width>0.5in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Tablix Name="Tablix2">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.94444in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.14444in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.49444in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.83333in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.09167in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox13">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Id Pesanan</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox15">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Username</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox15</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox17">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Nomor Telepon</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox17</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox19">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tipe Kamar</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox19</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox21">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Lama Menginap</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox21</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="id_pesanan">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!id_pesanan.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>id_pesanan</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="username">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!username.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>username</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="nomor_telepon">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!nomor_telepon.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>nomor_telepon</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="tipe_kamar">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!tipe_kamar.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>tipe_kamar</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="lama_menginap">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!lama_menginap.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>lama_menginap</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>1.19667in</Top>
+        <Left>0.87167in</Left>
+        <Height>0.5in</Height>
+        <Width>6.50833in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>3.21667in</Height>
+    <Style />
+  </Body>
+  <Width>8.325in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="HotelDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>920f1d84-30ac-46a6-9818-c639962d3ffa</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>HotelDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="id_pesanan">
+          <DataField>id_pesanan</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="username">
+          <DataField>username</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="nomor_telepon">
+          <DataField>nomor_telepon</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="tipe_kamar">
+          <DataField>tipe_kamar</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="lama_menginap">
+          <DataField>lama_menginap</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>HotelDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\user\source\repos\hotel\hotel\HotelDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Pesanan</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>PesananTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="ID2">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>4e28fb4a-27f9-44ba-bead-107314db67cc</rd:ReportID>
+</Report>
